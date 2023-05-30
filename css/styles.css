@@ -466,14 +466,14 @@ img {
   transition: box-shadow 250ms var(--cubic-bezier);
 }
 
-.overlay-div {
+.portfolio-pic-overlay {
   position: relative;
   overflow: hidden;
   width: 370px;
   height: 294px;
 }
 
-.overlay {
+.pf-pic-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -485,7 +485,7 @@ img {
   transition: transform 250ms var(--cubic-bezier);
 }
 
-.overlay p {
+.pf-pic-text p {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
@@ -494,7 +494,7 @@ img {
   padding-inline: 24px 45px;
 }
 
-.overlay-div:hover .overlay {
+.portfolio-pic-overlay:hover .pf-pic-text {
   transform: translateX(0);
 }
 
