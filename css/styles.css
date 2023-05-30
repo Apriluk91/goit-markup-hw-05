@@ -480,6 +480,7 @@ img {
   width: 100%;
   height: 100%;
   background-color: var(--blue-sky);
+  opacity: 0.9;
   transform: translateY(100%);
   transition: transform 250ms var(--cubic-bezier);
 }
@@ -489,9 +490,11 @@ img {
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: var(--snow);
+  padding-block: 49px;
+  padding-inline: 24px 45px;
 }
 
-.overlay-div:hover {
+.overlay-div:hover .overlay {
   transform: translateX(0);
 }
 
