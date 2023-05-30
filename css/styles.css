@@ -455,7 +455,9 @@ img {
   padding: 0;
   gap: 30px;
 }
-
+.portfolio-link {
+  display: block;
+}
 .portfolio-list-style:hover,
 .portfolio-list-style:focus {
   cursor: pointer;
@@ -487,10 +489,9 @@ img {
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: var(--snow);
-  padding: 49px 45px 49px 24px;
 }
 
-.overlay:hover {
+.overlay-div:hover {
   transform: translateX(0);
 }
 
