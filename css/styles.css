@@ -494,7 +494,7 @@ img {
   padding-inline: 24px 45px;
 }
 
-.portfolio-pic-overlay:hover .pf-pic-text {
+.portfolio-link:hover .pf-pic-text {
   transform: translateX(0);
 }
 
