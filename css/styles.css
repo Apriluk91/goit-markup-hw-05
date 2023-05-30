@@ -360,7 +360,8 @@ img {
   cursor: pointer;
   border-radius: 50%;
   fill: var(--snow);
-  transition: fill 250ms var(--cubic-bezier);
+  transition: background-color 250ms var(--cubic-bezier),
+    fill 250ms var(--cubic-bezier);
 }
 
 .clients-list {
